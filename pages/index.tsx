@@ -1,3 +1,5 @@
+import PdfViewer from "../components/pdfViewer";
+
 export default function Home() {
   return (
     <>
@@ -6,6 +8,7 @@ export default function Home() {
       <div>
         Hello there this will soon be a script editor
       </div>
+      <PdfViewer />
     </>
   );
 }
