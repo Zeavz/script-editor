@@ -4,6 +4,7 @@ const PdfViewer = () => {
   const [pdfUrl, setPdfUrl] = useState(null);
 
   const handleFileChange = (event: any) => {
+    // @ts-ignore
     setPdfUrl(URL.createObjectURL(event.target.files[0]));
   }
 
