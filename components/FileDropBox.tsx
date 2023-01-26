@@ -43,7 +43,7 @@ export function FileDropBox() {
           <div style={{ pointerEvents: 'none' }}>
             <Group position="center">
               <Dropzone.Accept>
-                <FiDownload size={50} color={theme.colors[theme.primaryColor][6]} stroke={1.5} />
+                <FiDownload size={50} color={theme.colors[theme.primaryColor][6]} />
               </Dropzone.Accept>
               <Dropzone.Reject>
                 <FiX size={50} color={theme.colors.red[6]} />
@@ -59,7 +59,7 @@ export function FileDropBox() {
             <Text align="center" weight={700} size="lg" mt="xl">
               <Dropzone.Accept>Drop files here</Dropzone.Accept>
               <Dropzone.Reject>Pdf file less than 30mb</Dropzone.Reject>
-              <Dropzone.Idle>Upload resume</Dropzone.Idle>
+              <Dropzone.Idle>Upload script</Dropzone.Idle>
             </Text>
             <Text align="center" size="sm" mt="xs" color="dimmed">
               Drag&apos;n&apos;drop files here to upload.
